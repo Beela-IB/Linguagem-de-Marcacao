@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+}
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333333;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: #111;
+}
+.active{
+    background-color: #dd203c;
+}
+.active:hover{
+    background-color: #e76276;
+}
+.principal{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+    text-align: justify;
+}
+p{
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+img{
+    width: 30%;
+    margin-bottom: 15px;
+}
+ol{
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+}
+
+.conteudo {
+    background-color: #CED0CF;
+    padding: 15px;
+    border: 1px solid #999;
+    border-radius: 8px;
+}
+
+img {
+    width: 10%;
+
+}
+
+.tabela {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial;
+    font-size: 12px;
+}
+
+.tabela th {
+    background-color: #FF101B;
+    color: white;
+    padding: 8px;
+    border: 1px solid #990000;
+}
+
+.tabela td {
+    padding: 7px;
+    border: 1px solid #999;
+}
+
+/* as cores ficam zebradas de acordo com a cor que a gente escolhe, 
+então no 1° as linhas ficam vermelho clarinho e no 2° as linhas ficam brancas */
+
+.tabela tbody tr:nth-child(odd) {
+    background-color: #FFBDB8;
+}
+
+.tabela tbody tr:nth-child(even) {
+    background-color: white;
+}
